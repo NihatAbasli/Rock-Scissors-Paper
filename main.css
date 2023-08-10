@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.col-2 h2 {
+  color: white;
+  font-size: 100px;
+}
+
+.w {
+  width: 63%;
+}
+
+.s {
+  width: 150px;
+}
