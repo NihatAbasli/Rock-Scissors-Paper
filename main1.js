@@ -13,6 +13,11 @@ const button = ["r", "s", "p"];
 let player1Score = 0;
 let player2Score = 0;
 
+let btnReset = document.querySelector("#btnReset");
+btnReset.addEventListener("click", function () {
+  firstScoreMe.innerHTML = "0";
+  secondScoreRobot.innerHTML = "0";
+});
 // Arrayin Elementlerini random veren funsiya yaziriq
 
 function randomButtonSelector(arr) {
